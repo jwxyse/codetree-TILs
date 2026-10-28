@@ -1,8 +1,6 @@
 N=int(input())
 
-i=1
-
-while i<=N:
+for i in range(1,N+1,1):
     if i%2==0 or i%3==0:
         print(1,end=" ")
     else:
